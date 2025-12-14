@@ -319,8 +319,7 @@ def main(cisi_all_path, cisi_qry_path, cisi_rel_path, topk=1000):
 
     print("BM25 metrics:", bm25_metrics)
     print("TF-IDF cosine metrics:", tfidf_metrics)
-    plot_single_bar_chart(bm25_metrics, tfidf_metrics)
-
+   
 
 if __name__ == "__main__":
     main(DATA_PATH, QRY_PATH, REL_PATH, topk=1000)
